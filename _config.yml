@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://drjackl.github.io
+title: Jack Li
+email: drjackl@gmail.com
+author: Jack Li
+description: My personal portfolio
+paginate: 5
+google_analytics: 
