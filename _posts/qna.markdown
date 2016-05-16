@@ -3,19 +3,27 @@ published: false
 title: QnA
 layout: post
 ---
-# Summary
-QnA is a social networking forum that allows users to sign up, log in, create a profile, ask questions, and suggest answers. It uses Firebase as a backend to persist data and Cloudinary to store images for profiles.
+## The App
+QnA is a social networking forum that allows users to sign up, log in, create a profile, ask questions, and suggest answers. It uses Firebase as a backend to persist all data except profile images, which uses Cloudinary.
 
-<screenshots>
+questions-screen
+answers-screen
+profile-screen
 
-# Architectural Overview
-There are 4 major components of this app, both on the frontend and backend:
+## Architecture
+There are 4 major components of this app:
+
 1. Signup/Login
 2. Profile (Viewing/Editing)
 3. Questions
 4. Answers
 
-1. Signup/Login
-Signup and Login fairly simple Each have their respective ViewController (VC) though they are similar with the standard two text fields for username and password.
+## Selected Details 
+Each component has a corresponding ViewController (VC). Of note:
 
-Of note is that logging in saves an access token in Keychain so the user doesn't have to log in anymore after. The app uses this access token to stamp the user on any posts made or changes to their profile
+- QuestionsVC and AnswersVC each use a `UITableView` and each have cells (QuestionCell & AnswerCell) subclassed from a PostCell which is a `UITableViewCell`.
+- A UserButton is the profile picture one taps on to bring up a Profile so it's always initialized with the Firebase reference for that user.
+- The `DataSource` syncs Firebase with a list of questions and holds information about a user when logged in, including answers voted on.
+
+## An Implementation Challenge: Answers
+There's an `Answer` model object, but no Question object. This is because `Answer`s are more complex because I'm sorting by most voted on and at the time, I didn't realize I could query Firebase like that. The app observes this Firebase query and although a separate Answer is not needed anymore, there was no real incentive for refactoring it out.
