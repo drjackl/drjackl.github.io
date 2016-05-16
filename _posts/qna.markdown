@@ -2,6 +2,7 @@
 published: true
 title: QnA
 layout: post
+permalink: http://drjackl.github.io/qna.html
 ---
 ![alt text](http://drjackl.github.io/questions.png)![alt text](http://drjackl.github.io/answers.png)![alt text](http://drjackl.github.io/profile.png)
 
