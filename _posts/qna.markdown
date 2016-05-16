@@ -1,14 +1,12 @@
 ---
-published: false
+published: true
 title: QnA
 layout: post
 ---
+![alt text](http://drjackl.github.io/questions.png)![alt text](http://drjackl.github.io/answers.png)![alt text](http://drjackl.github.io/profile.png)
+
 ## The App
 QnA is a social networking forum that allows users to sign up, log in, create a profile, ask questions, and suggest answers. It uses Firebase as a backend to persist all data except profile images, which uses Cloudinary.
-
-questions-screen
-answers-screen
-profile-screen
 
 ## Architecture
 There are 4 major components of this app:
