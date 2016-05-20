@@ -3,6 +3,8 @@ published: false
 title: Alcolator
 layout: post
 ---
+![Alcolator app screenshots](http://drjackl.github.io/alcolator.png)
+
 ## The App
 This app calculates the equivalent drinks of wine or whiskey from beers. The user inputs the number of beers and alcoholic percentage. The number of drinks of wine or whiskey is displayed.
 
