@@ -3,6 +3,8 @@ published: false
 title: SimpleBrowser
 layout: post
 ---
+![SimpleBrowser app screenshots](http://drjackl.github.io/simplebrowser.png)
+
 ## The App
 SimpleBrowser is a privacy-oriented web browser with a draggable navigation toolbar.
 
