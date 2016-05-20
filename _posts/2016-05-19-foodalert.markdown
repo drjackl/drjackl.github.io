@@ -24,8 +24,7 @@ FoodAlert is a personal locations repository. A user can search for places, save
 - The app reuses the CategorySelectVC custom modal both to select a Category for a Spot and to filter current saved Spots being shown.
 
 ### Implementation Challenges: Nearby Notifications
-![FoodAlert notification](http://drjackl.github.io/foodalert-notification.png)
-This app uses region monitoring to notify the user when nearing a saved Spot. There are several challenges:
+![FoodAlert notification](http://drjackl.github.io/foodalert-notification.png)This app uses region monitoring to notify the user when nearing a saved Spot. There are several challenges:
 
 - `CLRegion`'s identifier is the only place to customize a region so I encoded the Spot name here so that notifications could present the nearby Spot's name (as opposed to coordinates).
 - Apple documentation specifies that a `UILocalNotification` must either have a region or date set. Since entering is triggered by CoreLocation's `didEnterRegion:` delegate method, notifications should not have a region set or else the notification gets delayed until the next region event (which would be when the user exits the event)
