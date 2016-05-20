@@ -8,7 +8,7 @@ layout: post
 ## The App
 FoodAlert is a personal locations repository. A user can search for places, save places, create categories for these places, add notes, and be notified when the user comes within range (half a mile) of a place.
 
-**Frameworks/Classes Used:** MapKit (MKLocalSearch, MKAnnotationView), CoreLocation, UILocalNotification, UISearchBarDelegate, NSXMLParserDelegate, NSCoding, UITableView
+**Skills:** MapKit (MKLocalSearch, MKAnnotationView), CoreLocation, UILocalNotification, UISearchBarDelegate, NSXMLParserDelegate, NSCoding, UITableView
 
 ## Architecture
 - The CoinViewController maintains and flips between the two main ViewControllers (VC) of this app: the MapVC and the ListTableVC.
