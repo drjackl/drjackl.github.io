@@ -13,5 +13,3 @@ Once logged in, the main feed is loaded into the root view controller (VC) `Imag
 
 The `DataSource` maintains an array of `Media` items which represents the feed. Each `Media` contains various properties including the authoring `User` and an array of `Comment`s.
 
-
-
