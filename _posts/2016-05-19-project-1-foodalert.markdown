@@ -1,6 +1,6 @@
 ---
 published: true
-title: Project 1: FoodAlert
+title: FoodAlert
 layout: post
 ---
 ![FoodAlert app screenshots](http://drjackl.github.io/foodalert.png)
