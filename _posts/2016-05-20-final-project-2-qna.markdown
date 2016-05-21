@@ -1,6 +1,6 @@
 ---
 published: true
-title: Final Project 2: QnA
+title: QnA
 layout: post
 ---
 ![QnA app screenshots](http://drjackl.github.io/qna.png)
