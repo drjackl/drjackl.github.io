@@ -8,7 +8,7 @@ layout: post
 ## The App
 QnA is a social networking forum that allows users to sign up, log in, create a profile, ask questions, and suggest answers. It uses Firebase as a backend to persist all data except profile images, which uses Cloudinary.
 
-**Skills:** dispatch_async, drawRect:(CGRect), UITableView, UICollectionView, Photos, CocoaPods (UICKeyChainStore, Firebase, Cloudinary)
+**Skills:** dispatch_async, UITableView, UICollectionView, drawRect:(CGRect), Photos, CocoaPods (UICKeyChainStore, Firebase, Cloudinary)
 
 ## Architecture
 There are 4 major components of this app:
