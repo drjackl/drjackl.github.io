@@ -11,4 +11,4 @@ This app calculates the equivalent drinks of wine or whiskey from beers. The use
 **Skills:** Storyboard, UIKit (UIButton, UILabel, UITextField, UISlider) 
 
 ## Details
-A `MainMenuViewController` serves as the root view controller (VC) from which the user can choose WIne or Whiskey. Wine refers to `ViewController` and Whiskey refers to `WhiskeyViewController` which subclasses `ViewController` and overrides the `calculateAlcoholEquivalent` method
+A `MainMenuViewController` serves as the root view controller (VC) from which the user can choose WIne or Whiskey. Wine refers to `ViewController` and Whiskey refers to `WhiskeyViewController` which subclasses `ViewController` and overrides the `calculateAlcoholEquivalent` method.
